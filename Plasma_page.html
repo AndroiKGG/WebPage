@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <h1>
+      Astrophysics plasma
+    </h1>
+    <style>
+      .container {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap */
+            justify-content: space-around; /* Adjust spacing between items */
+            align-items: center; /* Center items vertically */
+            text-align: center; /* Center text */
+      }
+      img {
+           max-width: 100%; /* Adjust as needed */
+      }
+  </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Magnetohidrodynamics equations (HMD)</h2>
+        <ol>
+          <li>\( \frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \vec{v}) = S \)</li>
+          <li>momentum</li>
+          <li>Energy</li>
+        </ol>
+      </section>
+      <section>
+        <h2>
+          Kevin - Helmholtz Instability (KHI)
+        </h2>
+        <p>
+        On the next site we gonna talk about some researchs on the area of astrophysical plasmas
+        </p>
+
+        <figure class="container">
+          <img src="densidad_c_0.01.gif" alt="Kevin-Helmholtz simulation">
+          <img src="densidad_n_0.01.gif" alt="Kevin-Helmholtz simulation">
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 0.01 \). In this case, showing the charged specie</figcaption>
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 0.01 \). In this case, showing the neutral specie</figcaption>
+        </figure>
+
+        <figure class="container">
+          <img src="densidad_c_1.gif" alt="Kevin-Helmholtz simulation">          
+          <img src="densidad_n_1.gif" alt="Kevin-Helmholtz simulation">
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 1 \). In this case, showing the charged specie</figcaption>
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 1 \). In this case, showing the neutral specie</figcaption>
+        </figure>
+        
+        <figure class="container">
+          <img src="densidad_c_10.gif" alt="Kevin-Helmholtz simulation">          
+          <img src="densidad_n_10.gif" alt="Kevin-Helmholtz simulation">
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 10 \). In this case, showing the charged specie</figcaption>
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 10 \). In this case, showing the neutral specie</figcaption>
+        </figure>
+        
+        <figure class="container">
+          <img src="densidad_c_100.gif" alt="Kevin-Helmholtz simulation">
+          <img src="densidad_n_100.gif" alt="Kevin-Helmholtz simulation">
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 100 \). In this case, showing the charged specie</figcaption>
+          <figcaption>Simulation of the KHI with collisions parameter \( \alpha_c = 100 \). In this case, showing the neutral specie</figcaption>          
+        </figure>
+        
+        <a href="https://github.com/" target="_blank">Our github Page</a>
+      </section>
+    </main>
+  </body>
+</html>
